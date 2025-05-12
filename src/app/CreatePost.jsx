@@ -22,7 +22,7 @@ const CreatePost = () => {
 
         const { error: uploadError } = await supabase
           .storage
-          .from('posts')  // ✅ posts bucket
+          .from('posts')  
           .upload(filePath, formData.imageFile, {
             cacheControl: '3600',
             upsert: true,
@@ -45,7 +45,7 @@ const CreatePost = () => {
         finalImageUrl = formData.imageUrl.trim()
       }
 
-      // ✅ Insert post with correct image_url
+ 
       const { error: insertError } = await supabase
         .from('posts')
         .insert([{
