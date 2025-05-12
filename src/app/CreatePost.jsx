@@ -41,7 +41,8 @@ const CreatePost = () => {
           .getPublicUrl(filePath)
 
         finalImageUrl = publicUrl
-      } else if (formData.imageUrl.trim() !== '') {
+      } else if (formData.imageUrl && formData.imageUrl.trim() !== '') {
+
         finalImageUrl = formData.imageUrl.trim()
       }
 
