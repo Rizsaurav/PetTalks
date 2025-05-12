@@ -218,7 +218,7 @@ button:focus-visible {
 
 /* Main Card */
 .post-card {
-  background: linear-gradient(145deg, #ffffff, #fff8ee);
+  background: linear-gradient(145deg, #ffffff, #f3f3f3);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   padding: 25px;
@@ -425,12 +425,6 @@ button:focus-visible {
 .back-link:hover {
   background: rgba(255, 140, 0, 0.2);
   transform: translateX(-5px);
-}
-
-.back-link::before {
-  content: "←";
-  margin-right: 8px;
-  font-size: 1.2rem;
 }
 
 .post-detail-card {
