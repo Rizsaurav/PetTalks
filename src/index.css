@@ -526,16 +526,6 @@ button:focus-visible {
   box-shadow: 0 8px 15px rgba(255, 140, 0, 0.4);
 }
 
-.upvote-btn::before {
-  content: "👍";
-  font-size: 1.2rem;
-}
-
-.edit-btn::before {
-  content: "✏️";
-  font-size: 1.2rem;
-}
-
 /* Comments */
 .comments-section {
   margin-top: 50px;
