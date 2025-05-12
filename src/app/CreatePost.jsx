@@ -15,7 +15,6 @@ const CreatePost = () => {
       const userId = getOrCreateUserId()
       let finalImageUrl = null
 
-      // ✅ Upload image file if provided
       if (formData.imageFile) {
         const fileExt = formData.imageFile.name.split('.').pop()
         const fileName = `${Date.now()}.${fileExt}`
