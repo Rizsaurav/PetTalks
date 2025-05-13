@@ -62,7 +62,7 @@ const EditPost = () => {
       console.error('❌ Update failed:', error.message)
       alert(`Oh no! Couldn’t save: ${error.message} 😔`)
     } else {
-      alert('✅ Your paw-some story has been updated! 🎉')
+      alert('Your paw-some story has been updated! 🎉')
       navigate(`/post/${id}`)
     }
   }
