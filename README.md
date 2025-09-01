@@ -1,4 +1,4 @@
-# Web Development Final Project - *PetTalks*
+# Web Development Project - *PetTalks*
 
 Submitted by: **PetTalks**
 
@@ -42,17 +42,13 @@ The following **required** functionality is completed:
   - After a user creates a new post, they can go back and edit the post
   - A previously created post can be deleted from its post page
 
-The following **optional** features are implemented:
+The following other features are implemented:
 
 
 - [x] Web app implements pseudo-authentication
   - Users can only edit and delete posts or delete comments by entering the secret key, which is set by the user during post creation
   - **or** upon launching the web app, the user is assigned a random user ID. It will be associated with all posts and comments that they make and displayed on them
   - For both options, only the original user author of a post can update or delete it
-- [ ] Users can repost a previous post by referencing its post ID. On the post page of the new post
-  - Users can repost a previous post by referencing its post ID
-  - On the post page of the new post, the referenced post is displayed and linked, creating a thread
-- [ ] Users can customize the interface
   - e.g., selecting the color scheme or showing the content and image of each post on the home feed
 - [x] Users can add more characterics to their posts
   - Users can share and view web videos
